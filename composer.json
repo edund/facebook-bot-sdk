@@ -1,0 +1,23 @@
+{
+    "name": "edund/facebook-bot-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Navarro Dantas",
+            "email": "eduardo.dantas@basis.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeBot\\": "src"
+        }
+    }
+}
